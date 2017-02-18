@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue example</title>
+  </head>
+  <body>
+    <div id="app">
+      <test-component></test-component>
+      <test-component2></test-component2>
+    </div>
+    <script src="../node_modules/vue/dist/vue.min.js"></script>
+    <script src="../dist/build.js"></script>
+    <script type="text/javascript">
+      new Vue({
+        el: '#app'
+      });
+    </script>
+  </body>
+</html>
